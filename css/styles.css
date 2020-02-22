@@ -1,0 +1,119 @@
+*{
+    font-family: 'Cuprum', ;
+}
+.main{
+    background-image: url("../img/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    font-size: 13px;
+    
+}
+#logo{
+    margin-top: 20%;
+}
+ #mouse{
+    margin-top: 8%;
+    margin-bottom: 1%;
+ }
+ .about{
+     text-align: center;
+     margin-top: 5%;
+
+ }
+ .whatWeDo {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+.whatWeDo p{
+    display: none;
+}
+.row>img {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+}
+ .services{
+     background-image: url("../img/backgrounds/s_image.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    align-items: center;
+ }
+ .services h2{
+     text-align: center;
+     padding-top:10%;
+ }
+ .services p{
+    text-align: center;
+    padding-bottom: 10%;
+}
+ .col-md-3 img{
+     padding-left:10px;
+     padding-right: 10px;
+ }
+#one,#two {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+ .contacts{
+    background-image: url("../img/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
+ .contacts form{
+    padding-bottom: 10%;
+    align-items: center;
+  
+ }
+ .contacts h2{
+     text-align: center;
+     padding-top: 5%;
+ }
+
+ .contacts input{
+    background: transparent;
+    color: white;
+   
+
+ }
+ .contacts textarea{
+    background: transparent;
+    color: white;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+ }
+ 
+ #feedback{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+ .social{
+     text-align: center;
+     margin-top: 2%;
+ }
+ footer{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-weight: bolder;
+ }
