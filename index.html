@@ -116,7 +116,35 @@
       </div>
 
    </div> 
-   
+   <div class="container-fluid contacts">
+      <h2>CONTACT US</h2>
+      <form>
+         <div class="row justify-content-center">
+            <div class="col-4">          
+               <input type="text" class="form-control" id="names" placeholder="Name..." name="names" size="25">
+            </div>
+            <div class="col-4"> 
+               <input type="email" class="form-control" id="email" placeholder="Email.." name="names" size="25">
+            </div>
+         </div>
+
+         <div class="row">
+         <div class="col-md-8 offset-2">
+            <textarea class="form-control" rows="7" id="comment" placeholder="Your message here..."></textarea>
+         </div>
+         </div>
+         <div class="text-center">
+            <button type="reset" class="btn btn-primary"> Clear</button>
+             <button type="submit" id="btn1" class="btn btn-success">SEND</button>
+            </div>
+         </div>
+         <div class="container-fluid feedback">
+            <p id="feedback"> </p>
+
+         </div>
+      </form>
+   </div>
+  
  
    <script
   src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
