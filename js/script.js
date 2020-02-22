@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#design").click(function(){
+        $("#design-p").toggle();
+    });
+    $("#dev").click(function(){
+        $("#dev-p").toggle();
+    });
+    $("#product").click(function(){
+        $("#product-p").toggle();
+     });
+});
