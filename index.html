@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani studio</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -54,95 +53,101 @@
                This iterative process allows for changes as business requirements evolve.</p>
          </div>
    </div>
-
-   <div class="container-fluid portfolio">
+   <div class="portfolio container-fluid">
       <div class="head row">
-         <h2 class="col-12">PORTFOLIO</h2>
-     </div>
-      <!--  first row of the portfolio imgs -->
-      <div class="row justify-content-between" id="one">
-         <div class="col-md-3">
-            <img src="img/portfolio/work1.jpg" alt="unable to load image">
-            <div class="description">
-                <p>my txt here</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <img src="img/portfolio/work2.jpg" alt="unable to load image">
-            <div class="description">
-               <p>my txt here</p>
-            </div>
-        </div>
-         <div class="col-md-3">
-            <img src="img/portfolio/work3.jpg"  alt="unable to load image">
-            <div class="description">
-                <p>my txt here</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <img src="img/portfolio/work4.jpg" alt="unable to load image">
-            <div class="description">
-               <p>my txt here</p>
-            </div>
-        </div>
-              
-      </div>
-      <!-- second row of the portfolio imgs -->
-      <div class="row justify-content-between" id="two">
-         <div class="col-md-3 ">
-            <img src="img/portfolio/work5.jpg" alt="unable to load image">
-            <div class="description">
-                <p>my txt here</p>
-            </div>
-         </div>
-         <div class="col-md-3 ">
-            <img src="img/portfolio/work6.jpg"alt="unable to load image">
-            <div class="description">
-               <p>my txt here</p>
-            </div>
-         </div>
-         <div class="col-md-3 ">
-            <img src="img/portfolio/work7.jpg"  alt="unable to load image">
-            <div class="description">
-                <p>my txt here</p>
-            </div>
-         </div>
-         <div class="col-md-3 ">
-            <img src="img/portfolio/work8.jpg" alt="unable to load image">
-            <div class="description">
-               <p>my txt here</p>
-            </div>
-         </div>
+          <h2 class="col-12">PORTFOLIO</h2>
       </div>
 
-   </div> 
+      <div class="row one">
+          
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work1.jpg" alt="unable to load image">
+              <div class="img_description">
+                  <p>All Blacks Time</p>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work2.jpg" alt="unable to load image">
+              <div class="img_description">
+                  <p>Ontario Security</p>
+              </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work3.jpg"  alt="unable to load image">
+              <div class="img_description">
+                  <p>Time visualizer</p>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work4.jpg" alt="unable to load image">
+              <div class="img_description">
+                  <p>Netflicks</p>
+              </div>
+          </div>
+
+      </div>
+
+      <div class="row two">
+
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work5.jpg" alt="unable to load image">
+              <div class="img_description">
+                  <p>Faceboot Studio</p>
+              </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work6.jpg"alt="unable to load image">
+              <div class="img_description">
+                  <p>KPLC Dashboard</p>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work7.jpg"  alt="unable to load image">
+              <div class="img_description">
+                  <p>Burned Logo</p>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 img_wrap">
+            <img src="img/portfolio/work8.jpg" alt="unable to load image">
+              <div class="img_description">
+                  <p>Giraffe Restaurant</p>
+              </div>
+          </div>
+          
+      </div>
+
+  </div>
+
    <div class="container-fluid contacts">
       <h2>CONTACT US</h2>
       <form>
-         <div class="row justify-content-center">
-            <div class="col-4">          
-               <input type="text" class="form-control" id="names" placeholder="Name..." name="names" size="25">
-            </div>
-            <div class="col-4"> 
-               <input type="email" class="form-control" id="email" placeholder="Email.." name="names" size="25">
-            </div>
+         <div class="row">
+             <div class="col-6">
+                 <input type="text" name="name" id="names" class="form-control" placeholder="Name...">
+             </div>
+
+             <div class="col-6">
+                 <input type="text" name="email" id="email" class="form-control" placeholder="Email...">
+             </div>
          </div>
 
          <div class="row">
-         <div class="col-md-8 offset-2">
-            <textarea class="form-control" rows="7" id="comment" placeholder="Your message here..."></textarea>
+             <textarea type="text" name="message" id="message" class="form-control" placeholder="Your message here..."></textarea>
          </div>
-         </div>
-         <div class="text-center">
-            <button type="reset" class="btn btn-primary"> Clear</button>
-             <button type="submit" id="btn1" class="btn btn-success">SEND</button>
-            </div>
-         </div>
-         <div class="container-fluid feedback">
-            <p id="feedback"> </p>
+         <button type="reset">Clear</button>
+         <button id="submit" type="submit" class="btn btn-success">Submit</button>
 
+         <div class="post row">
+             <p id="post" class="col-12"></p>
          </div>
-      </form>
+
+     </form>
    </div>
    <div class="container-fluid social" >
       <a href="https://twitter.com/" target="blank"><img src="img/social_icons/twitter.png" alt="twitter"/></a>
@@ -160,8 +165,6 @@
       <h5>DELANI STUDIO<br> 2019</h5>
    </footer>
  
-   <script
-  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="js/jquery.js"></script>
   <script src="js/script.js"></script>
 </body>
