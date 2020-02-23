@@ -22,6 +22,7 @@
  .about{
      text-align: center;
      margin-top: 5%;
+     margin-bottom: 5%;
 
  }
  .whatWeDo {
@@ -36,7 +37,7 @@
 }
 .row>img {
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 h2{
@@ -57,16 +58,26 @@ h2{
     text-align: center;
     padding-bottom: 10%;
 }
- .col-md-3 img{
-     padding-left:10px;
-     padding-right: 10px;
- }
-#one,#two {
+/* .row>img {
+    margin-top: 2%;
+    margin-bottom: 5%;
+} */
+.row {
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
 }
 
+.img_wrap {
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+   
+.img_description_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
  .contacts{
     background-image: url("../img/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
@@ -97,8 +108,11 @@ h2{
     margin-bottom: 10px;
     
  }
+ .contacts textarea::placeholder, .contacts input::placeholder{
+     color: white;
+ }
  
- #feedback{
+ #post{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2%;
@@ -106,6 +120,7 @@ h2{
     font-size: larger;
     text-align: center;
 }
+
  .social{
      text-align: center;
      margin-top: 2%;
