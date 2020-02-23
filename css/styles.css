@@ -25,6 +25,10 @@
      margin-bottom: 5%;
 
  }
+ .head{
+     margin-top: 3%;
+     margin-bottom: 2%;
+ }
  .whatWeDo {
     text-align: center;
     margin-top: 6%;
@@ -32,7 +36,7 @@
     padding-left: 10%;
     padding-right: 10%; 
 }
-.whatWeDo p{
+.info{
     display: none;
 }
 .row>img {
@@ -40,12 +44,13 @@
     margin-bottom: 2%;
 }
 
-h2{
+h2, h6{
+    font-weight: bold;
     text-align: center;
 }
  .services{
-     background-image: url("../img/backgrounds/s_image.jpg");
-     background-repeat: no-repeat;
+    background-image: url("../img/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     color:white;
     align-items: center;
@@ -58,10 +63,7 @@ h2{
     text-align: center;
     padding-bottom: 10%;
 }
-/* .row>img {
-    margin-top: 2%;
-    margin-bottom: 5%;
-} */
+
 .row {
     padding-left: 10%;
     padding-right: 10%;
@@ -83,6 +85,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
+    align-items: center;
     
 }
  .contacts form{
@@ -112,13 +115,76 @@ h2{
      color: white;
  }
  
- #post{
+
+.img_wrap {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+   
+.img_description {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+   
+.img_description_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+ 
+.contact {
+    background-image: url("../img/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 5%;
+}
+
+#message {
+    height: 200px;
+}
+
+.contact form {
+    text-align: center;
+    padding-bottom: 10%;
+}
+  
+.contact input {
+    margin-bottom: 3%;
+    background: transparent;
+    color: white;
+}
+  
+.contact textarea {
+    background: transparent;
+    color: white;
+}
+  
+  
+.contact textarea::placeholder, .contact input::placeholder {
+    background: transparent;
+    color: #fff;
+}
+
+.post {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2%;
     font-weight: bolder;
-    font-size: larger;
-    text-align: center;
 }
 
  .social{
@@ -130,5 +196,6 @@ h2{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2%;
+    margin-bottom:5px;
     font-weight: bolder;
  }
