@@ -1,11 +1,11 @@
 # DELANI STUDIO
 #### By **Karanja Martin Gathu** 21ST Feb 2020
 ## Description
-Delani Studio is a webpage that that provides information about Delani studio its services, what they do, portfolio and a contact form where interested users can leave a message.
+Delani Studio is a webpage that provides information about Delani studio, its services, what they do, portfolio and a contact form where interested users can leave a message.
 
 ## Setup/Installation Requirements
 + Clone this repository
-+ cd to Delani Studio
++ cd to Delani-Studio
 + Open index.html
 ## Known bugs
 No known bugs at the moment
@@ -14,7 +14,7 @@ No known bugs at the moment
 + CSS
 + Bootstrap
 + JavaScript
-+JQuery
++ JQuery
 
 ## GitHub link
 To open My-Portfolio [Click Here](https://martingathu.github.io/Delani-Studio/)
